@@ -1,0 +1,5 @@
+totem-dummy (9:99.0~bpo8+1) jessie-backports; urgency=medium
+
+  * Initial Release.
+
+ -- Robert Lange <rlange@corusa.net>  Sun, 04 Sep 2016 15:24:53 -0400

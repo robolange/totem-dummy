@@ -1,0 +1,66 @@
+Source: totem-dummy
+Section: video
+Priority: optional
+Maintainer: Robert Lange <rlange@corusa.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: libtotem0
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: totem
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: totem-common
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: totem-dbg
+Architecture: all
+Section: debug
+Priority: extra
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: totem-plugins
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: gir1.2-totem-1.0
+Section: introspection
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
+
+Package: libtotem-dev
+Section: libdevel
+Architecture: all
+Description: Dummy package to remove Totem without removing Gnome
+ The Debian gnome meta package requires Totem, however Gnome does not
+ strictly require Totem. This package replaces the Debian totem packages
+ with empty packages, but still satisfies the gnome meta package
+ requirements.
